@@ -1,5 +1,4 @@
-import mod2
-import mod1
+from tt_gutenberg import mod1, mod2
 import pandas as pd
 def list_authors(by_languages=True, alias=True):
     authors = pd.read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-03/gutenberg_authors.csv")
