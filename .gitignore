@@ -1,3 +1,4 @@
 #Ignoring the following files 
 _pycahce_ 
 *.csv
+*.DS_Store

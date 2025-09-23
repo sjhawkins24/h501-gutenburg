@@ -1,5 +1,6 @@
 import pandas as pd 
 def grouping_fun(data): 
+    '''Function that will group the data by alias and then sort'''
     data = data.groupby("alias")\
         ["language"].count().\
             to_frame().\
